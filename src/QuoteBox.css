@@ -1,0 +1,72 @@
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 65vh;
+  background-color: white;
+  border-radius: 20%;
+  background: #d83f87;
+  color: white;
+  word-wrap: normal;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#text {
+  font-size: 36px;
+  /* text-align: justify; */
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  line-height: 50px;
+  margin: 0 20px;
+}
+
+#text::before {
+  content: open-quote;
+  position: relative;
+  padding-right: 10px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 100px;
+  top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#text::after {
+  content: close-quote;
+  position: relative;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 100px;
+  top: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#author {
+  font-size: 26px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#new-quote {
+  align-self: flex-end;
+  margin-right: 30px;
+  font-size: 26px;
+  background: linear-gradient(#2a1b3d, #44318d);
+  border: 1px solid black;
+  color: #d83f87;
+  cursor: pointer;
+}
+
+.twitter {
+  font-size: 40px;
+}
+
+#tweet-quote {
+  color: white;
+  align-self: flex-start;
+  position: relative;
+  bottom: 36px;
+  left: 50px;
+}
