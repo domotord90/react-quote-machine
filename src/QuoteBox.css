@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
-  width: 65vh;
+  height: 420px;
+  width: 520px;
   background-color: white;
   border-radius: 20%;
   background: #d83f87;
@@ -16,10 +16,9 @@
 
 #text {
   font-size: 36px;
-  /* text-align: justify; */
   text-align: left;
   font-family: "Oswald", sans-serif;
-  line-height: 50px;
+  line-height: 3.125rem;
   margin: 0 20px;
 }
 
@@ -28,8 +27,8 @@
   position: relative;
   padding-right: 10px;
   color: rgba(255, 255, 255, 0.3);
-  font-size: 100px;
-  top: 10px;
+  font-size: 6.25rem;
+  top: 0.625rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -38,13 +37,13 @@
   position: relative;
   padding-left: 10px;
   color: rgba(255, 255, 255, 0.3);
-  font-size: 100px;
-  top: 60px;
+  font-size: 6.25rem;
+  top: 3.75rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #author {
-  font-size: 26px;
+  font-size: 1.625rem;
   padding-right: 20px;
   text-align: right;
 }
@@ -52,7 +51,7 @@
 #new-quote {
   align-self: flex-end;
   margin-right: 30px;
-  font-size: 26px;
+  font-size: 1.625rem;
   background: linear-gradient(#2a1b3d, #44318d);
   border: 1px solid black;
   color: #d83f87;
@@ -60,13 +59,13 @@
 }
 
 .twitter {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 #tweet-quote {
   color: white;
   align-self: flex-start;
   position: relative;
-  bottom: 36px;
-  left: 50px;
+  bottom: 2.25rem;
+  left: 3.125rem;
 }
